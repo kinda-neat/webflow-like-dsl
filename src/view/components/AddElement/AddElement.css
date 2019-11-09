@@ -1,0 +1,5 @@
+.add-element {
+  &__field {
+    margin: 10px 0;
+  }
+}

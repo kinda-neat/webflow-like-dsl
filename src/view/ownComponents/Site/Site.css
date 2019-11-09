@@ -1,0 +1,17 @@
+.site {
+  &__container {
+    background-color: red;
+    margin: 2px;
+  }
+
+  &__paragraph {
+    background-color: black;
+    margin: 2px;
+  }
+
+  &__text {
+    background-color: green;
+    margin: 2px;
+  }
+}
+

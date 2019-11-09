@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+
+  &__sidebar {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__add-element {
+    flex-basis: 250px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+  &__selected-node-info {
+    flex-basis: 300px;
+  }
+
+  &__navigator {
+    width: 600px;
+  }
+
+  &__site {}
+}
+
+.tree {
+  &__node {
+    /* background-color: #df3; */
+  }
+}
+
+.node {
+  &__type {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+
+  &_selected {
+    border: 1px dotted #d7614c;
+  }
+}
